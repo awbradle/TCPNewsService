@@ -57,6 +57,8 @@ int main(int argc, char *argv[])
 		{
 			printf("Enter the term you wish to search for in today's news: ");
 			scanf("%s", echoBuffer);
+			printf("%s %ld\n", echoBuffer, strlen(echoBuffer));
+
 		}
 		else
 		{
